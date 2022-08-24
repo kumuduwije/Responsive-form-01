@@ -31,7 +31,7 @@ body{
   }
   .divider{
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width:120px;
     padding:2px;
     border-radius: 3px;
@@ -48,6 +48,7 @@ body{
     background-color: #16023a;
     color: #fff;
     font-family: 'poppins', 'sans-serif';
+    
   }
   
   /* Active field */
@@ -67,7 +68,7 @@ body{
   
   
   label {
-    padding: 12px 12px 12px 0;
+    padding: 12px 12px 0 0;
     display: inline-block;
     color:rgb(145, 145, 145);
   }
@@ -123,7 +124,7 @@ body{
   }
   
   /* Responsive layout - when the screen is less than 1000px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
