@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #160040;
+}
+  .container {
+    font-family: 'poppins';
+    background:rgba(0, 0, 0, 0.3);
+    margin:0 auto;
+    margin-top: 30px;
+    width:30%;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .contact-ruler{
+    margin-top: 30px;
+  }
+  .row{
+    margin-top: 10px;
+  }
+  
+  .row h3{
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .divider{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width:120px;
+    padding:2px;
+    border-radius: 3px;
+    background-color: #79018C;
+  }
+  
+  input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border:0.2px solid #B266D2;
+    border-radius: 4px;
+    resize: vertical;
+    /* background-color: #24203B; */
+    background-color: #16023a;
+    color: #fff;
+    font-family: 'poppins', 'sans-serif';
+  }
+  
+  /* Active field */
+  
+  input[type="text"]:focus{
+      
+    outline:1px solid #B266D2;
+  }
+  
+  input[type="email"]:focus{
+    outline:1px solid #B266D2;
+  }
+  
+  textarea:focus{
+    outline:1px solid #B266D2;
+  } 
+  
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color:rgb(145, 145, 145);
+  }
+  
+  input[type=submit] {
+    font-size: 18px;
+    background-color: #8400E7;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5d01a4;
+  }
+  
+  .row h3{
+      text-align:center;
+      font-size:30px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .submit-row{
+      position:relative;
+      width:fit-content;
+      margin:auto;
+    margin-top: 10px;
+  }
+  
+  .star{
+    color: rgb(243, 99, 99);
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1000px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    input[type=submit]{
+      padding: 12px 15px;
+      font-size:15px;
+    }
+    
+    /* .submit-row{
+      width:100%;
+       
+    } */
+    
+    .container{
+        width:80%;
+    }
+  }  

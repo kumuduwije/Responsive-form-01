@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kumudu's responsive contact form</title>
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+	<!-- Contact area  -->
+    <!--<hr class="ruler contact-ruler">-->
+    <div class="container">
+        
+        <form action="#">
+        
+          <div class="row">
+            <h3>Contact me</h3>
+          <div class="divider"></div>
+            <div class="col-25">
+              <label for="fname">First Name <span class="star">*</span></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Enter your first name" autofocus required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name <span class="star">*</span></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">E-mail <span class="star">*</span></label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="lname" name="lastname" placeholder="Enter your e-mail" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject <span class="star">*</span></label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write your message" style="height:200px" required></textarea>
+            </div>
+          </div>
+          <div class="row submit-row">
+            <input type="submit" value="Send message">
+          </div>
+        </form>
+      </div>
+
+
+
+</body>
+</html>
