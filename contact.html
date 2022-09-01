@@ -12,7 +12,7 @@
     <!--<hr class="ruler contact-ruler">-->
     <div class="container">
         
-        <form action="#">
+        <form action="/" id="contact-form">
         
           <div class="row">
             <h3>Contact me</h3>
@@ -21,7 +21,7 @@
               <label for="fname">First Name <span class="star">*</span></label>
             </div>
             <div class="col-75">
-              <input type="text" id="fname" name="firstname" placeholder="Enter your first name" autofocus required>
+              <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required>
             </div>
           </div>
           <div class="row">
@@ -37,8 +37,9 @@
             <div class="col-25">
               <label for="lname">E-mail <span class="star">*</span></label>
             </div>
+
             <div class="col-75">
-              <input type="email" id="lname" name="lastname" placeholder="Enter your e-mail" required>
+              <input type="email" id="email" name="email" placeholder="Enter your e-mail" required>
             </div>
           </div>
 
@@ -55,8 +56,10 @@
           </div>
         </form>
       </div>
+    
 
-
-<script src="form.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="form.js"></script>
 </body>
 </html>
