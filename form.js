@@ -1,4 +1,4 @@
-console.log("Working done")
+
 
 $("#contact-form").validate({
     rules:{
