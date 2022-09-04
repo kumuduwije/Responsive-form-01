@@ -52,7 +52,7 @@
             </div>
           </div>
           <div class="row submit-row">
-            <input type="submit" value="Send message">
+            <input type="submit" value="Send message" name="send">
           </div>
         </form>
       </div>
@@ -60,7 +60,7 @@
 
       <?php
             //check whether user sumbit the form
-            if(isset($_POST['send message'])){
+            if(isset($_POST['send'])){
                 $firstname = $_POST['firstname'];
                 $lastname = $_POST['lastname'];
                 $email = $_POST['email'];
